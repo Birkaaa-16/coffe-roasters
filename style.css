@@ -65,3 +65,41 @@ section.first button {
   padding: 0;
   margin-top: 56px;
 }
+section.second {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  div.packets {
+    height: 193px;
+    margin-top: -70px;
+    display: flex;
+    gap: 30px;
+    img {
+      height: 100%;
+    }
+  }
+}
+div.info {
+  display: flex;
+  gap: 30px;
+  margin-top: 71.55px;
+  div.text {
+    height: 134px;
+    width: 255px;
+    p {
+      color: #333d4b;
+      font-family: "Fraunces", serif;
+      font-size: 24px;
+      font-weight: 900;
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    article {
+      color: #333d4b;
+      font-weight: 400;
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+}
